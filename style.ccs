@@ -1,0 +1,86 @@
+body{
+    background-color:  lightgray;
+    justify-content: center;
+    align-items:
+
+}
+.container{
+    margin: 200px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: black
+}
+@font-face {
+    font-family: Gasalt-White;
+    src: url(../fonts/Gasalt/-White.ttf);
+}
+.name{
+    font-family: Gasalt-White
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bio{
+    text-align: center;
+    font-family: Arial, Helvetica, san-serif;
+}
+.profile-profile{
+    clip-path: circle();
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140;
+    height: 140px;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: 100;
+}
+.name{
+
+    font-family: Gasalt-Black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    font-color:darkslategray;
+    font-weight: 600px;
+}
+
+.bio{
+
+    text-align: center;
+}
+
+.social-link{
+    
+    
+    padding-top: 15px;
+	font-family: Arial;
+	font-weight: 600;
+	color:#59b1f1;
+	width: 500px;
+	text-decoration: none;
+	border-radius: 10px;
+    text-align: center;
+   
+
+}
+
+.social-link:hover{
+
+    
+    width: 500px;
+	background-color: #59b1f1;
+	text-align: center;
+	color: white;
+    
+    border-radius: 50px;
+	
+	
+
+}
+
+.social-icon{
+    width: 15px;
+}   
